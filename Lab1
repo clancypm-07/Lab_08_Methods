@@ -1,0 +1,13 @@
+package Lab_08;
+
+public class Lab_08_Methods {
+    public static double multiplyThreeNumbers (int num1, int num2, int num3)
+    {
+       return num1 * num2 * num3;
+    }
+    // Main method
+    public static void main(String[] args) {
+        double result = multiplyThreeNumbers(4, 6, 9);
+        System.out.println("The product of the three numbers is " + result);
+    }
+}
